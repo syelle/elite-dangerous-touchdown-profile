@@ -1,0 +1,66 @@
+body {
+	background: black;
+}
+
+h1, h2, h3, h4, h5, h6, .button, .button:hover {
+	color: #FC5D01;
+	text-transform: uppercase;
+}
+
+ul li ul li {
+	padding-bottom: 0 !important;
+}
+
+.small-4, .small-8, .small-12 {
+	border: 2px solid #FC5D01;	
+}
+
+.button {
+	margin: 0;
+}
+
+.button, .button:focus, .button:hover {
+	background-color: #3D1303;	
+}
+
+.toggle-container {
+	height: 51px;
+}
+
+.toggle-input {
+	display: none;
+}
+
+.toggle-button {
+	background-color: #3D1303;
+	cursor: pointer;
+	display: block;
+	height: 51px;
+	overflow: hidden;
+	position: relative;
+
+	-webkit-user-select: none;
+}
+
+input[type="checkbox"] + label {
+	margin: 0;
+}
+
+.toggle-button:before {
+	content: attr(data);
+	display: inline-block;
+}
+
+.toggle-button:before {
+	left: 0;
+}
+
+.toggle-button:after {
+	left: 100%;
+}
+
+.toggle-input:checked + .toggle-button, .button:active {
+	background-color: rgba(0,130,135,0.6);
+	box-shadow: 0 0 9px #00CCFF;
+	color: #00CCFF;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ED Ship GUI</title>
+
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/elite-dangerous-theme.css" />
+
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<link rel="manifest" href="manifest.json" />
+
+		<!-- <audio id="beep">
+			<source src="audio/beep.wav" preload="auto" type="audio/wav" autobuffer="true"></source>			
+			Your browser doesn't support the sound file.
+		</audio>	 -->		
+	</head>
+
+	<body>
+
+		<div id="panel">  
+
+			<div class="row">
+				<div class="small-4 columns">
+					<h3> Wing </h3>
+
+					<ul class="small-block-grid-1">
+						<li>
+							<ul class="small-block-grid-3">
+								<li class="clickable-button">
+									<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{f1}")')>
+										W1
+									</a>									
+								</li>
+								<li class="clickable-button">
+									<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{f2}")')>
+										W2
+									</a>									
+								</li>
+								<li class="clickable-button">
+									<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{f3}")')>
+										W3
+									</a>									
+								</li>																
+							</ul>
+						</li>						
+					</ul>
+
+					<ul class="small-block-grid-1">
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{f5}")')>
+								Wing Target
+							</a>
+						</li>					
+					</ul>					
+
+
+					<ul class="small-block-grid-1">
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="wing-nav-lock-switch" class="toggle-input" type="checkbox">
+								<label for="wing-nav-lock-switch" class="toggle-button button radius expand" data="Wing Nav Lock" onclick=JavaScript:runMacro('macro("{f4}")')></label>
+							</div>								
+						</li>						
+					</ul>
+
+				</div>
+
+				<div class="small-8 columns">
+					<h3> Power </h3>
+
+					<ul class="small-block-grid-3">
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}")')>
+								2 2 2
+							</a>
+						</li>		
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{UP}{UP}{LEFT}{UP}")')>
+								2 <strong>4</strong> 0
+							</a>
+						</li>
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{LEFT}{LEFT}{UP}{LEFT}")')>
+								<strong>4</strong> 2 0
+							</a>
+						</li>						
+					</ul>
+					<ul class="small-block-grid-3">	
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{UP}")')>
+								1.5 <strong>3</strong> 1.5
+							</a>
+						</li>	
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{UP}{UP}{LEFT}{UP}{RIGHT}")')>
+								1.5 <strong>3.5</strong> 1
+							</a>
+						</li>					
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{UP}{UP}")')>
+								1 <strong>4</strong> 1
+							</a>
+						</li>						
+					</ul>
+					<ul class="small-block-grid-3">
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{RIGHT}")')>
+								1.5 1.5 <strong>3</strong>
+							</a>
+						</li>		
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{RIGHT}{RIGHT}{UP}{RIGHT}{LEFT}{LEFT}")')>
+								2 1 <strong>3</strong>
+							</a>
+						</li>
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{DOWN}{RIGHT}{RIGHT}")')>
+								1 1 <strong>4</strong>
+							</a>
+						</li>						
+					</ul>									
+				</div>
+
+			</div>	
+
+			<div class="row">
+				<div class="small-12 columns">
+					<h3> Propulsion </h3>
+					<ul class="small-block-grid-4">
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="flight-assist-switch" class="toggle-input" type="checkbox" checked="checked">
+								<label for="flight-assist-switch" class="toggle-button button radius expand" data="Flight Assist" onclick=JavaScript:runMacro('macro("{NUMPAD5}")')></label>
+							</div>
+						</li>
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="rotational-correction-switch" class="toggle-input" type="checkbox" checked="checked">
+								<label for="rotational-correction-switch" class="toggle-button button radius expand" data="Rotational Correction" onclick=JavaScript:runMacro('macro("{NUMPAD6}")')></label>
+							</div>							
+						</li>
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{NUMPAD7}")')>
+								Next System in Route
+							</a>
+						</li>					
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("j")')>
+								FSD
+							</a>
+						</li>
+					<ul>
+				</div>
+			</div>						
+
+			<div class="row">
+				<div class="small-12 columns">
+					<h3> Utilities </h3>
+					<ul class="small-block-grid-4">
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="landing-gear-switch" class="toggle-input" type="checkbox">
+								<label for="landing-gear-switch" class="toggle-button button radius expand" data="Landing Gear" onclick=JavaScript:runMacro('macro("{insert}")')></label>
+							</div>								
+						</li>
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="hardpoints-switch" class="toggle-input" type="checkbox">
+								<label for="hardpoints-switch" class="toggle-button button radius expand" data="Hardpoints" onclick=JavaScript:runMacro('macro("{u}")')></label>
+							</div>								
+						</li>
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="cargo-scoop-switch" class="toggle-input" type="checkbox">
+								<label for="cargo-scoop-switch" class="toggle-button button radius expand" data="Cargo Scoop" onclick=JavaScript:runMacro('macro("{home}")')></label>
+							</div>								
+						</li>
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="lights-switch" class="toggle-input" type="checkbox">
+								<label for="lights-switch" class="toggle-button button radius expand" data="Lights" onclick=JavaScript:runMacro('macro("{L}")')></label>
+							</div>								
+						</li>
+					<ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="small-12 columns">
+					<h3> Defense </h3>
+					<ul class="small-block-grid-4">
+						<li>
+							<div class="toggle-container clickable-button">
+								<input id="silent-running-switch" class="toggle-input" type="checkbox">
+								<label for="silent-running-switch" class="toggle-button button radius expand" data="Silent Running" onclick=JavaScript:runMacro('macro("{NUMPAD1}")')></label>
+							</div>								
+						</li>
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("+H")')>
+								Deploy Heat Sink
+							</a>
+						</li>
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("{NUMPAD3}")')>
+								Activate Shield Cell
+							</a>
+						</li>
+						<li class="clickable-button">
+							<a class="button radius expand" href="#" onclick=JavaScript:runMacro('macro("+N")')>
+								Launch Chaff
+							</a>
+						</li>
+					<ul>
+				</div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="js/vendor/jquery.js"></script>
+		<script type="text/javascript" src="js/vendor/fastclick.js"></script>
+		<script type="text/javascript" src="js/touchdown.js"></script>
+		<!-- <script type="text/javascript" src="js/vendor/howler.js"></script> -->
+		<!-- <script type="text/javascript" src="js/sounds.js"></script> -->
+	</body>
+</html>

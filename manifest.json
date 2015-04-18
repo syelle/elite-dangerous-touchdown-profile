@@ -1,0 +1,14 @@
+{
+  "name": "ED Ship UI",
+  "icons": [
+    {
+      "src": "images/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/png",
+      "density": "1.0"
+    }
+  ],
+  "start_url": "../index.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}
