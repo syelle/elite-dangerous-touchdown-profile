@@ -2,6 +2,8 @@
 
 This is a configuration profile for the [TouchDown Web Server](http://desrat.lightning-bolt.net/TouchDown/) for use when playing [Elite:Dangerous](https://www.elitedangerous.com/).
 
+![Screenshot of syelle's Elite:Dangerous profile for TouchDown](https://raw.githubusercontent.com/syelle/elite-dangerous-touchdown-profile/master/screenshot.png)
+
 ## Credits
 This profile was based off of a profile created by [reddit user andywade84](http://www.reddit.com/user/andywade84):
 - [Profile code](https://onedrive.live.com/redir?resid=C5EEF26522725D2!35946&authkey=!ADhaQ5XJvPq8Q1g&ithint=folder%2chtml)
