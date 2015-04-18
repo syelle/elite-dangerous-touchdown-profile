@@ -2,7 +2,11 @@
 
 This is a configuration profile for the [TouchDown Web Server](http://desrat.lightning-bolt.net/TouchDown/) for use when playing [Elite:Dangerous](https://www.elitedangerous.com/).
 
-![Screenshot of syelle's Elite:Dangerous profile for TouchDown](https://raw.githubusercontent.com/syelle/elite-dangerous-touchdown-profile/master/screenshot.png)
+## index.html
+![Screenshot of syelle's power-management-heavy Elite:Dangerous profile for TouchDown](https://raw.githubusercontent.com/syelle/elite-dangerous-touchdown-profile/master/images/screenshot.png)
+
+## index-targeting.html
+![Screenshot of syelle's targeting-heavy Elite:Dangerous profile for TouchDown](https://raw.githubusercontent.com/syelle/elite-dangerous-touchdown-profile/master/images/screenshot-targeting.png)
 
 ## Credits
 This profile was based off of a profile created by [reddit user andywade84](http://www.reddit.com/user/andywade84):
