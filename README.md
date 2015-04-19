@@ -1,6 +1,6 @@
 # elite-dangerous-touchdown-profile
 
-This is a configuration profile for the [TouchDown Web Server](http://desrat.lightning-bolt.net/TouchDown/) for use when playing [Elite:Dangerous](https://www.elitedangerous.com/).
+This is a profile for [TouchDown Web Server](http://desrat.lightning-bolt.net/TouchDown/) for use when playing [Elite:Dangerous](https://www.elitedangerous.com/). By using both, you'll be able to control ship functions by pressing buttons on a touchscreen device. The future is here!
 
 ## Installing & using this profile
 - [Download TouchDown](http://desrat.lightning-bolt.net/TouchDown/viewforum.php?f=10&sid=57de7efe5188a2af74d1a7e43f7a7687) on the computer that will also be running Elite: Dangerous, and then run the "WebServer.exe" file. A UI should pop up that allows you to configure the web server.
