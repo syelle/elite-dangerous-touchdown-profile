@@ -3,7 +3,7 @@
 This is a profile for [TouchDown Web Server](http://desrat.lightning-bolt.net/TouchDown/) for use when playing [Elite:Dangerous](https://www.elitedangerous.com/). By using both, you'll be able to control ship functions by pressing buttons on a touchscreen device. The future is here!
 
 ## Installing & using this profile
-- [Download TouchDown](http://desrat.lightning-bolt.net/TouchDown/viewforum.php?f=10&sid=57de7efe5188a2af74d1a7e43f7a7687) on the computer that will also be running Elite: Dangerous, and then run the "WebServer.exe" file. A UI should pop up that allows you to configure the web server.
+- [Download TouchDown](https://github.com/syelle/elite-dangerous-touchdown-profile/raw/master/bin/TD-Beta-Webcore-0.4.1.1.zip) on the computer that will also be running Elite: Dangerous, and then run the "WebServer.exe" file. A UI should pop up that allows you to configure the web server.
 - [Download the zip file for this profile](https://github.com/syelle/elite-dangerous-touchdown-profile/archive/master.zip) & extract the zip files.
 - In the extracted files, copy everything from the folder that contains "index.html". Depending on how you extracted the zip file, you may have to open 1 or 2 folders called "elite-dangerous-touchdown-profile" to get to that folder.
 - Paste the files you just copied into "Data/Docs" in the TouchDown files.
